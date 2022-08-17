@@ -8,7 +8,7 @@ using UnityEditor.IMGUI.Controls;
 
 public class AddressablesBuildReportParser : EditorWindow
 {
-    [MenuItem("Next/Addressables Build Layout Parser")]
+    [MenuItem("Window/Asset Management")]
     public static void OnOpen()
     {
         var window = GetWindow<AddressablesBuildReportParser>();
